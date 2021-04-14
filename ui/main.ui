@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>328</width>
+    <height>622</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>328</width>
+    <height>622</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>328</width>
+    <height>622</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>319</width>
+      <height>577</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="socialLayout">
+       <item>
+        <layout class="QHBoxLayout" name="twitter">
+         <item>
+          <widget class="QPushButton" name="icon_twitter">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>twitter</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_twitter">
+           <property name="text">
+            <string>@zied_fakh</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="youtube">
+         <item>
+          <widget class="QPushButton" name="icon_youtube">
+           <property name="minimumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>30</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>YT</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_youtube">
+           <property name="text">
+            <string>youtube.com/c/ZiedYT</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="filesLayout">
+       <item>
+        <widget class="QLabel" name="label_selectpanel">
+         <property name="minimumSize">
+          <size>
+           <width>122</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>122</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Select Panels to translate</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="butt_files">
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>75</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>select</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_num_files">
+         <property name="text">
+          <string>0 Panels selected   </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="pathLayout">
+       <item>
+        <widget class="QLabel" name="label_selectpath">
+         <property name="minimumSize">
+          <size>
+           <width>122</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>122</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Select save Path</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="butt_path">
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>75</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>select</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="butt_empty">
+         <property name="minimumSize">
+          <size>
+           <width>75</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>75</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Empty Queue</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="fontLayout">
+       <item>
+        <widget class="QLabel" name="label_selectfont">
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>151</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Select Font: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="butt_font">
+         <property name="text">
+          <string>select</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="progressLayout">
+       <item>
+        <widget class="QLabel" name="label_progress">
+         <property name="minimumSize">
+          <size>
+           <width>151</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>51</width>
+           <height>23</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Done</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="butt_translate">
+         <property name="text">
+          <string>Translate</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>288</width>
+           <height>384</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>288</width>
+           <height>384</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>328</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
